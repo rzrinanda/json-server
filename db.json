@@ -1,29 +1,90 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode-test"
-  },
-  "cars": [
-    {
-      "id": 1,
-      "make": "Toyota",
-      "model": "Tacoma",
-      "color": "Blue",
-      "year": "2016",
-      "updated_at": "2018-07-27 07:08:31"
-    },
-    {
-      "id": 2,
-      "make": "Mazda",
-      "model": "RX-7",
-      "color": "Red",
-      "year": "2018",
-      "updated_at": "2018-07-27 07:08:31"
-    }
+  "doers":[
+  {
+          isActive: true,
+          age: 40,
+          name: { first: 'Dickerson', last: 'Macdonald' },
+          dob: '1982-04-01',
+          gender: 'Male',
+        },
+        {
+          isActive: false,
+          age: 21,
+          name: { first: 'Larsen', last: 'Shaw' },
+          dob: '2001-04-01',
+          gender: 'Male',
+        },
+        {
+          isActive: false,
+          age: 9,
+          name: { first: 'Mini', last: 'Navarro' },
+          dob: '2014-12-01',
+          gender: 'Male',
+          _rowVariant: 'success',
+        },
+        {
+          isActive: false,
+          age: 89,
+          name: { first: 'Geneva', last: 'Wilson' },
+          dob: '1982-04-01',
+          gender: 'Male',
+        },
+        {
+          isActive: true,
+          age: 38,
+          name: { first: 'Jami', last: 'Carney' },
+          dob: '1982-04-01',
+          gender: 'Male',
+        },
+        {
+          isActive: false,
+          age: 27,
+          name: { first: 'Essie', last: 'Dunlap' },
+          dob: '1982-04-01',
+          gender: 'Male',
+        },
+        {
+          isActive: true,
+          age: 40,
+          name: { first: 'Thor', last: 'Macdonald' },
+          dob: '1982-04-01',
+          gender: 'Male',
+        },
+        {
+          isActive: true,
+          age: 87,
+          name: { first: 'Larsen', last: 'Shaw' },
+          dob: '1945-04-01',
+          gender: 'Male',
+          _cellVariants: { age: 'danger', isActive: 'warning' },
+        },
+        {
+          isActive: false,
+          age: 26,
+          name: { first: 'Mitzi', last: 'Navarro' },
+          dob: '1996-04-01',
+          gender: 'Male',
+        },
+        {
+          isActive: false,
+          age: 22,
+          name: { first: 'Genevieve', last: 'Wilson' },
+          dob: '2000-04-01',
+          gender: 'Male',
+        },
+        {
+          isActive: true,
+          age: 38,
+          name: { first: 'John', last: 'Carney' },
+          dob: '1984-04-01',
+          gender: 'Male',
+        },
+        {
+          isActive: false,
+          age: 29,
+          name: { first: 'Dick', last: 'Dunlap' },
+          dob: '2003-04-01',
+          gender: 'Male',
+        },
   ]
 }
