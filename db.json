@@ -12,9 +12,9 @@
       "id": 2,
       "isActive": false,
       "age": 21,
-      "name": { "first": "Larsen", "last": "Shaw" },
+      "name": { "first": "Hellen", "last": "Rody" },
       "dob": "2001-04-01",
-      "gender": "Male"
+      "gender": "Female"
     },
     {
       "id": 3,
